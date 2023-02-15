@@ -1,0 +1,5 @@
+
+RewriteEngine on
+<FilesMatch "\.(jpg|png|css|js|gif|woff)$">
+Header set Cache-Control "public, max-age=108000000"
+</FilesMatch>
